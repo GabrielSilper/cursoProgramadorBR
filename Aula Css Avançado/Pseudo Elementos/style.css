@@ -1,0 +1,24 @@
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    color: blue;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./imagens/desenho.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+}
