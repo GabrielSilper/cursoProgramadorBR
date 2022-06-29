@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+  
+<head>
+    <title>
+        Convert a pixel value to a number value using JavaScript.
+    </title>
+</head>
+  
+<body style="text-align:center;">
+    <h1 style="color:green;">  
+        GeeksForGeeks 
+    </h1>
+    <p id="GFG_UP" style="font-size: 19px; font-weight: bold;">
+    </p>
+    <button onclick="GFG_Fun()">
+        click here
+    </button>
+    <p id="GFG_DOWN" 
+       style="color: green;
+              font-size: 24px; 
+              font-weight: bold;">
+    </p>
+    <script>
+        var el_up = document.getElementById("GFG_UP");
+        var el_down = document.getElementById("GFG_DOWN");
+        var n = el_up.style.fontSize;
+        el_up.innerHTML = 
+          "Click on the button to get the number value "+
+          "from pixel value.<br>Pixel Value - '" + n + "'";
+  
+        function GFG_Fun() {
+            el_down.innerHTML = "Integer value is " + parseInt(n, 10);
+        }
+    </script>
+</body>
+  
+</html>

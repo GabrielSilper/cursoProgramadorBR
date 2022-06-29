@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+
+        .container{
+            width: 480px;
+            height: 270px;
+            position: relative;
+        }
+
+        .video{
+            width: 100%;
+        }
+
+        .controle{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .btn{
+            position: relative;
+            width: 65px;
+            top: 96%;
+            box-sizing: border-box;
+            transform: translateY(-96%);
+        }
+
+    </style>
+  </head>
+  <body>
+
+    <div onmouseover="fMostrar()" onmouseout="fEsconder()" class="container">
+        <video id="video" class="video" src="./vídeos/Change style input based placeholder.mp4">
+
+        </video>
+
+        <div class="controle">
+            <button onclick="fBack()" class="btn">Back</button>
+            <button onclick="fForward()" class="btn">Forward</button>
+            <button onclick="fVelDimuir()" class="btn">- Vel</button>
+            <button onclick="fVelAumentar()" class="btn">+ Vel</button>
+            <button onclick="fPlay()" class="btn">Play</button>
+            <button onclick="fPause()" class="btn">Pause</button>
+            <button onclick="fStop()" class="btn">Stop</button>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

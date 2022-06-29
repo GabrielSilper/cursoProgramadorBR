@@ -1,0 +1,47 @@
+#total{
+	color: white;
+	background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg) ;
+	background-attachment: fixed;
+}
+
+
+#titulo{
+	color:  blue;
+}
+
+.cont{
+	width: 50vw;
+	background-color: blue;
+}
+.inside{
+	width: 50%;
+	background-color: red;
+}
+
+
+.texto_verde{
+	color:  green;
+}
+
+#cm{
+	background: blue;
+	width: 1cm;
+	height: 1cm;
+}
+
+#mm{
+	background: green;
+	width: 5mm;
+	height: 5mm;
+}
+
+#in{
+	background: black;
+	width: 1in;
+	height: 1in;
+
+
+
+
+
+}

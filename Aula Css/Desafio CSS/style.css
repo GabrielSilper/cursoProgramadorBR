@@ -1,0 +1,41 @@
+.back{
+	background-image: url("../Imagens/backgorund.png");
+	background-size: 400px 200px;
+	background-repeat: no-repeat;
+}
+
+.lista{
+	list-style-type: none;
+	font-size: 20px;
+	width: 400px;
+	height: 200px;
+}
+#n0{
+	font-size: 30px;
+	padding-top: 10px;
+	margin: 0;
+}
+
+#n1{
+	list-style-image: url("../Imagens/Insta.png");
+/*	margin: 20px;
+	margin-left: 25px;*/
+}
+#n2{
+	list-style-image: url("../Imagens/Twitter.png");
+	/*margin: 20px;
+	margin-left: 25px;*/
+}
+#n3{
+	list-style-image: url("../Imagens/Youtube.png");
+	/*margin: 20px;
+	margin-left: 25px;*/
+}
+
+li{
+	padding: 5px;
+	margin-left: 50px;
+}
+body{
+	background-color: black;
+}
