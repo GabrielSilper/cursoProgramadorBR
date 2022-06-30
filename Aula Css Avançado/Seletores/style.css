@@ -1,0 +1,8 @@
+[title*="1"]::first-letter{
+    color: red;
+}
+
+/* *= em qualquer lugar do texto 
+$= final do texto
+^= tem que estar no início do texto
+~= tem que conter a palavra no texto

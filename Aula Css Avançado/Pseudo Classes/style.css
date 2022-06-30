@@ -1,0 +1,22 @@
+ul{
+    margin-top: 100px;
+}
+
+li:nth-child(2){
+    color: blue;
+}
+
+li:nth-of-type(4){
+    color: red;
+}
+
+input:focus{
+    color: green;
+}
+
+/* se eu colocar 2n nos parênteses, eu pego todos os itens divisíveis por 2. 
+Se eu colocar even, eu pego todos os pares.
+Se eu colocar odd, eu pego todos os impares. 
+
+Isso é óotimo pra estilizar listas*/
+
