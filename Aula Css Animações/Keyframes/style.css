@@ -1,0 +1,22 @@
+
+@keyframes changeColor{
+
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 100px;
+    }
+
+}
+
+.box{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    box-shadow: -12px 12px rgb(11, 11, 92);
+    animation-name: changeColor;
+    animation-duration: 6s;
+}
